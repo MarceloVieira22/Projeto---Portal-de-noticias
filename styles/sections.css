@@ -22,6 +22,7 @@ section header {
 
 
 #freatured {
+  grid-area: freatured;
   img {
     height: 100%;
     object-fit: cover;
@@ -30,6 +31,7 @@ section header {
 }
 
 #semana {
+  grid-area: semana;
 
 
   &>div {
@@ -88,5 +90,34 @@ section header {
     h2 {
       margin-top: 8px;
     }
+  }
+}
+#ia {
+  grid-area: ia;
+  img {
+    width: 176px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-block: 8px 4px;
+
+  }
+}
+aside {
+  grid-area: aside;
+}
+
+#more {
+  margin-top: 32px;
+
+  h3 {
+    margin-top: 8px;
+  }
+  img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
 }
